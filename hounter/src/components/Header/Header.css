@@ -4,6 +4,41 @@
     margin-top: 40px;
     margin-bottom: 110px;
     margin-right: 120px;
+
+}
+
+.dot {
+    position: absolute;
+    top: -162px;
+}
+
+.bg-shape {
+    z-index: -1;
+}
+
+.bg-1 {
+    background: #82FFD2;
+    opacity: 0.3;
+    filter: blur(60px);
+    transform: rotate(90deg);
+    position: absolute;
+    width: 438px;
+    height: 494px;
+    left: -200px;
+    top: -162px;
+}
+
+.bg-2 {
+    background: #82F7FF;
+    opacity: 0.3;
+    filter: blur(60px);
+    transform: rotate(90deg);
+    position: absolute;
+    width: 438px;
+    height: 494px;
+    left: -200px;
+    top: -77px;
+
 }
 
 .header-logo {
@@ -39,6 +74,11 @@
     padding: 8px 16px;
     transition: .3s all;
     cursor: pointer;
+}
+
+.header-nav .header-nav-list li:hover,.header-nav .header-nav-list li:focus,.header-nav .header-nav-list li:active  {
+    border-color: white;
+    
 }
 
 .header-nav .header-nav-list li img {

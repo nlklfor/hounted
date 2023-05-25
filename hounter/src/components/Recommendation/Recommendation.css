@@ -1,0 +1,77 @@
+.recommendation-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.recommendation-section .recommendation-name {
+    color: #F59E0B;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 50px;
+    position: relative;
+    text-transform: capitalize;
+
+}
+.recommendation-section .recommendation-name:before{ 
+    content: " ";
+    background: #F59E0B;
+    width: 32px;
+    height: 1px;
+    left: 10px;
+    top: 22px;
+    position: absolute;
+  }
+
+.recommendation-section .recommendation-nav {
+    display: flex;
+}
+
+.recommendation-section .recommendation-nav h2 {
+    color: #1B1C57;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: capitalize;
+    
+}
+
+.recommendation-section .recommendation-nav .recommendation-nav_list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.recommendation-section .recommendation-nav .recommendation-nav_list .nav-list_item {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #E0E3EB;
+    border-radius: 32px;
+    margin-bottom: 40px;
+    color: #888B97;
+    font-style: normal;
+    font-weight: 500;
+    margin-right: 32px;
+    transition: .3s all;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.recommendation-section .recommendation-nav .recommendation-nav_list .nav-list_item svg {
+    margin-right: 12px;
+}
+
+.recommendation-section .recommendation-nav .recommendation-nav_list .nav-list_item p {
+    margin: 0;
+}
+
+.recommendation-section .recommendation-nav .recommendation-nav_list .nav-list_item:hover {
+    color: #10B981;
+    fill: currentColor;
+    background: #D1FAE5;
+}

@@ -6,7 +6,7 @@ import ticket from '../../assets/ticket_logo.png';
 import tripadv from '../../assets/tripadv_logo.png';
 import traveloka from '../../assets/traveloka_logo.png';
 import heroslider from '../../assets/slider-hero.png'
-import HeroSlider from '../Header/HeroSlider';
+import HeroSlider from './HeroSlider';
 
 function Hero() {
     return (
@@ -31,18 +31,17 @@ function Hero() {
                 <p className="search-partner">Our Partnership</p>
                 <div className="partnership">
                     <ul className="search-list">
-                        <li className="search-list_item"><img alt='' src={traveloka}></img></li>
-                        <li className="search-list_item"><img alt='' src={ticket}></img></li>
-                        <li className="search-list_item"><img alt='' src={airbnb}></img></li>
-                        <li className="search-list_item"><img alt='' src={tripadv}></img></li>
+                        <li className="search-list_item"><img alt='traveloka' src={traveloka}></img></li>
+                        <li className="search-list_item"><img alt='ticket' src={ticket}></img></li>
+                        <li className="search-list_item"><img alt='airbnb' src={airbnb}></img></li>
+                        <li className="search-list_item"><img alt='tripadv' src={tripadv}></img></li>
                     </ul>
                 </div>
             </div>
             <div className="section-hero_slider">
                 <img className='background-slider' alt='hero-slider' src={heroslider}></img>
-                
             </div>
-            <HeroSlider/>
+            <HeroSlider />
         </div>
     );
 }

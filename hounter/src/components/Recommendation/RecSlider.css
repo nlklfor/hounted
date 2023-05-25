@@ -1,0 +1,110 @@
+ .slider{
+    display: flex;
+    justify-content: space-between;
+ }
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    transition: .5s all;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.slider-container:hover,
+.slider-container:focus,
+.slider-container:active {
+    transform: translateY(-10px);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.slider-container .slider-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.card-section .card-desc {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-section .card-prop {
+    background: #FEE2E2;
+    border-radius: 32px;
+    display: flex;
+    position: absolute;
+    width: 112px;
+    align-items: center;
+    justify-content: center;
+    top: 60%;
+    left: 15%;
+}
+
+.card-section .card-prop .prop-desc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #EF4444;
+    margin: 0;
+    padding: 8px 14px;
+
+}
+
+
+.card-section .card-desc .card-desc_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #0E1735;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.card-section .card-desc .card-desc_price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #3C4563;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.card-person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-person img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.card-person .person-details .person-details_name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0E1735;
+    margin-bottom: 4px;
+    margin: 0;
+}
+
+.card-person .person-details .person-details_city {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #888B97;
+    margin: 0;
+}
+
+.card-person .person-details {
+    margin-left: 16px;
+}
